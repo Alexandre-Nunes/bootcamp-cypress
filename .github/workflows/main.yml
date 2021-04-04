@@ -45,7 +45,7 @@ jobs:
       - run: npm run report:cucumber
       
       # publicar relatorio em html
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHubPages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
